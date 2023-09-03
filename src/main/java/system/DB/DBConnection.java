@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class DBConnection {
     private static final String DB_DRIVER_CLASS = "org.mariadb.jdbc.Driver";
-    private static final String DB_URL = "jdbc:mariadb://airspirk.asuscomm.com:43306/university";
-    private static final String DB_USERNAME = "root";
-    private static final String DB_PW = "root";
+    private static final String DB_URL = "jdbc:mariadb://;
+    private static final String DB_USERNAME = ;
+    private static final String DB_PW = ;
 
     public static Connection getConnection(){
         Connection conn = null;
